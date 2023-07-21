@@ -1,4 +1,4 @@
-# Differentiable Ensemble Kalman Filters (DEnKF)
+# Differentiable Ensemble Kalman Filters
 This repository is the official implementation of the paper "Enhancing State Estimation in Robots: A Data-Driven Approach with Differentiable Ensemble Kalman Filters", which has been accepted to 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2023)
 
 <!-- This paper introduces a novel state estimation framework for robots using differentiable ensemble Kalman filters (DEnKF). DEnKF is a reformulation of the traditional ensemble Kalman filter that employs stochastic neural networks to model the process noise implicitly. Our work is an extension of previous research on differentiable filters, which has provided a strong foundation for our modular and end-to-end differentiable framework. This framework enables each component of the system to function independently, leading to improved flexibility and versatility in implementation. Through a series of experiments, we demonstrate the flexibility of this model across a diverse set of real-world tracking tasks, including visual odometry and robot manipulation. Moreover, we show that our model effectively handles noisy observations, is robust in the absence of observations, and outperforms state-of-the-art differentiable filters in terms of error metrics. Specifically, we observe a significant improvement of at least 59% in translational error when using DEnKF with noisy observations. Our results underscore the potential of DEnKF in advancing state estimation for robotics. -->
@@ -11,10 +11,10 @@ DEnKF is a reformulation of the traditional ensemble Kalman filter that employs 
 
 ## Tutorials and Documentation
 A set of tutorials and documentation about DEnKF has been provided in the following Jupyter Notebooks:
-1. [Data Preparation with Example](https://github.com/liuxiao1468/DEnKF/blob/master/pyTorch/1.%20Data%20Preparation%20with%20Example.ipynb)
-2. [Quick Start with DEnKF](https://github.com/liuxiao1468/DEnKF/blob/master/pyTorch/2.%20Quick%20Start%20with%20DEnKF.ipynb)
-3. [Train the model](https://github.com/liuxiao1468/DEnKF/blob/master/pyTorch/3.%20Train%20the%20model.ipynb)
-4. [Evaluation](https://github.com/liuxiao1468/DEnKF/blob/master/pyTorch/4.%20Evaluation.ipynb)
+1. [Data Preparation with Example](https://github.com/ir-lab/DEnKF/blob/main/pyTorch/1.%20Data%20Preparation%20with%20Example.ipynb)
+2. [Quick Start with DEnKF](https://github.com/ir-lab/DEnKF/blob/main/pyTorch/2.%20Quick%20Start%20with%20DEnKF.ipynb)
+3. [Train the model](https://github.com/ir-lab/DEnKF/blob/main/pyTorch/3.%20Train%20the%20model.ipynb)
+4. [Evaluation](https://github.com/ir-lab/DEnKF/blob/main/pyTorch/4.%20Evaluation.ipynb)
 
 
 ## Getting Started
