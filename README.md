@@ -22,7 +22,7 @@ We provide two implementations using `Pytorch` and `Tensorflow`. Docker workflow
 
 #### 1. docker workflow
 
-Clone the repo `git clone https://github.com/liuxiao1468/DEnKF.git` and then set the environment variables.
+Clone the repo `git clone https://github.com/ir-lab/DEnKF.git` and then set the environment variables.
 Edit the `conf.sh` file to set the environment variables used to start the docker 
 containers. 
 
