@@ -104,6 +104,11 @@ The experimental results of UR5 manipulation task indicate that DEnKF are capabl
 ## Citation
 * Please cite the paper if you used any materials from this repo, Thanks.
 ```
-TBD
+@article{liu2023enhancing,
+  title={Enhancing State Estimation in Robots: A Data-Driven Approach with Differentiable Ensemble Kalman Filters},
+  author={Liu, Xiao and Clark, Geoffrey and Campbell, Joseph and Zhou, Yifan and Amor, Heni Ben},
+  journal={arXiv preprint arXiv:2308.09870},
+  year={2023}
+}
 ```
 
