@@ -1,5 +1,5 @@
 # Differentiable Ensemble Kalman Filters
-This repository is the official implementation of the paper "Enhancing State Estimation in Robots: A Data-Driven Approach with Differentiable Ensemble Kalman Filters", which has been accepted to 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2023)
+This repository is the official implementation of the paper ["Enhancing State Estimation in Robots: A Data-Driven Approach with Differentiable Ensemble Kalman Filters"](https://arxiv.org/abs/2308.09870), which has been accepted to 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2023)
 
 <!-- This paper introduces a novel state estimation framework for robots using differentiable ensemble Kalman filters (DEnKF). DEnKF is a reformulation of the traditional ensemble Kalman filter that employs stochastic neural networks to model the process noise implicitly. Our work is an extension of previous research on differentiable filters, which has provided a strong foundation for our modular and end-to-end differentiable framework. This framework enables each component of the system to function independently, leading to improved flexibility and versatility in implementation. Through a series of experiments, we demonstrate the flexibility of this model across a diverse set of real-world tracking tasks, including visual odometry and robot manipulation. Moreover, we show that our model effectively handles noisy observations, is robust in the absence of observations, and outperforms state-of-the-art differentiable filters in terms of error metrics. Specifically, we observe a significant improvement of at least 59% in translational error when using DEnKF with noisy observations. Our results underscore the potential of DEnKF in advancing state estimation for robotics. -->
 
@@ -84,7 +84,7 @@ https://huggingface.co/datasets/liuxiao1468/simulation_car_dataset
 2. KITTI Visual Odometry Dataset
 https://www.cvlibs.net/datasets/kitti/eval_odometry.php
 3. sim2real UR5 Dataset
-is available upon request. (Yifan: yzhou298@asu.edu)
+https://www.dropbox.com/sh/qgd3hc9iu1tb1cd/AABDfyYLyGpso605-19kbOhCa?dl=0 (Yifan: yzhou298@asu.edu)
 
 
 ## Results
